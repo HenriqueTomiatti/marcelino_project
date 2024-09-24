@@ -1,0 +1,44 @@
+name: portfolio_marcelino
+description: "Projeto Tatuador"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  assets:
+    - lib/assets/tatto1.jpg
+    - lib/assets/tatto2.jpg
+    - lib/assets/tatto3.jpg
+    - lib/assets/tatto4.jpg
+    - lib/assets/tatto5.jpg
+    - lib/assets/tatto6.jpg
+    - lib/assets/tatto7.jpg
+    - lib/assets/tatto8.jpg
+    - lib/assets/tatto9.jpg
+    - lib/assets/tatto10.jpg
+    - lib/assets/tatto11.jpg
+    - lib/assets/tatto12.jpg
+    - lib/assets/tatto13.jpg
+    - lib/assets/LogoMarcelino.jpg
+    - lib/assets/bgImage.jpg
+
+  uses-material-design: true
+
