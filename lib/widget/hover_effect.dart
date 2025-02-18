@@ -5,13 +5,18 @@ class HoverImage extends StatefulWidget {
   final double width;
   final double height;
 
-  const HoverImage({super.key, required this.imagePath, this.width = 200, this.height = 200, });
+  const HoverImage({
+    super.key,
+    required this.imagePath,
+    this.width = 200,
+    this.height = 200,
+  });
 
   @override
-  _HoverImageState createState() => _HoverImageState();
+  HoverImageState createState() => HoverImageState();
 }
 
-class _HoverImageState extends State<HoverImage> {
+class HoverImageState extends State<HoverImage> {
   bool _isHovering = false;
 
   @override
@@ -26,7 +31,6 @@ class _HoverImageState extends State<HoverImage> {
           widget.imagePath,
           width: widget.width,
           height: widget.height,
-
         ),
       ),
     );

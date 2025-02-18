@@ -13,10 +13,10 @@ class HoverEffect extends StatefulWidget {
   });
 
   @override
-  _HoverEffectState createState() => _HoverEffectState();
+  HoverEffectState createState() => HoverEffectState();
 }
 
-class _HoverEffectState extends State<HoverEffect> {
+class HoverEffectState extends State<HoverEffect> {
   bool _isHovering = false;
 
   @override

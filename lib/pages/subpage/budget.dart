@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ContatosSection extends StatelessWidget {
-  const ContatosSection({Key? key}) : super(key: key);
+class BudgetSection extends StatelessWidget {
+  const BudgetSection({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class ContatosSection extends StatelessWidget {
         height: 200,
         width: double.infinity,
         decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.8),
+          color: Colors.white.withValues(alpha: 0.8),
           borderRadius: BorderRadius.circular(15),
           boxShadow: const [
             BoxShadow(
@@ -23,7 +23,7 @@ class ContatosSection extends StatelessWidget {
         ),
         child: const Center(
           child: Text(
-            'contatos',
+            'Orçamento',
             style: TextStyle(
               fontSize: 24,
               color: Colors.black,
